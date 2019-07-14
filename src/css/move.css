@@ -1,0 +1,288 @@
+/* 轮播----------------- */
+/*图片的样式*/
+.main-l {
+	width: 750px;
+	float: left;
+	margin-left: 178px;
+	position: relative;
+}
+
+.imglist a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 750px;
+	height: 400px;
+	text-align: center;
+	line-height: 400px;
+}
+
+/*焦点样式*/
+.slides {
+	position: absolute;
+	bottom: 5px;
+	z-index: 10;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+}
+
+.slides span{
+	display: inline-block;
+	margin:0 7px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	background-color: #3e535a;
+	opacity:.4;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.slides .slide_on {
+	background-color: #3e535a;
+	opacity:1;
+}
+
+.imglist,
+.slide_img {
+	width: 750px;
+	height: 400px;
+}
+.imglist {
+	position: relative;
+	overflow: hidden;
+}
+
+/* 选项卡----------------------------- */
+.main-r {
+	width: 259px;
+	height: 398px;
+	border-right: 1px solid #d2b994;
+	overflow: hidden;
+	border-bottom: 1px solid #d2b994;
+	background: #fff;
+	float: left;
+}
+.tab_box {
+	position: relative;
+	width: 260px;
+}
+.consult .consult_text a {
+	width: 72px;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	color: #707070;
+}
+.consult .consult_text {
+	width: 260px;
+	padding-left: 22px;
+	padding-bottom: 8px;
+	overflow: hidden;
+	font-size: 12px;
+}
+.consult_tt ,
+.tabMenu_click{
+	text-align: center;
+	padding-top: 5px;
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 22px;
+	color: #707070;
+	cursor: pointer;
+}
+.consult_tab {
+	line-height: 32px;
+	padding-left: 12px;
+}
+
+.tabMenu_click {
+	border-bottom: 1px solid #f00;
+	color: #000;
+	font-weight: 700;
+}
+
+.consult_tabBox .hide {
+	display: none;
+}
+
+.consult_tabBox .consult_text .consult_text_dep {
+	display: inline-block;
+	width: 72px;
+	height: auto;
+	margin: 15px 10px 4px 20px;
+}
+.consult_tabBox .consult_text_dep .consult_img {
+	width: 72px;
+	height: 72px;
+	display: inline-block;
+}
+.consult_tabBox .consult_text_dep_r .consult_img {
+	background: url(../img/index/01-16.png) no-repeat;
+}
+.consult_tabBox .consult_text_dep p {
+	font-size: 14px;
+	color: #666;
+	line-height: 26px;
+	text-align: center;
+}
+.consult_tabBox .consult_text_dep_l .consult_img {
+	background: url(../img/index/01-18.png) no-repeat;
+}
+.consult_text_dep_r:hover .hide,
+.consult_text_dep_l:hover .hide{
+	display: block;
+}
+.consult_text_dep_r:hover .consult_img,
+.consult_text_dep_l:hover .consult_img{
+	display: none;
+}
+.index_ico {
+	background: url(//s.maiyaole.com/images/201306/images/just_index.png) no-repeat;
+	display: inline-block;
+}
+
+.arrow_ico {
+	background-position: -15px -452px;
+	width: 6px;
+	height: 10px;
+	margin-left: 5px;
+	position: relative;
+	top: 1px;
+}
+.server_banner {
+	text-align: center;
+	overflow: hidden;
+	margin: 0 13px;
+}
+.server_banner img {
+	width: 100%;
+}
+.company_member {
+	clear: both;
+	margin-left: 20px;
+	padding-top: 10px;
+	clear: both;
+}
+.company_member .company_member_title {
+	font-weight: 700;
+	color: #000;
+	padding-bottom: 5px;
+	display: block;
+}
+.company_member_ul li {
+	width: 44px;
+	height: 44px;
+	border-radius: 5px;
+	border: 1px solid #d0d0d0;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	position: relative;
+}
+.company_member_ul .company_icon {
+	width: 44px;
+	height: 44px;
+	border-radius: 5px;
+}
+.company_member_ul .company_code_img {
+	position: absolute;
+	width: 88px;
+	height: 84px;
+	border: 1px solid #cccccc;
+	top: -98px;
+	margin-left: -20px;
+	z-index: 999;
+	display: none;
+}
+.company_member_ul li:hover .company_code_img{
+	display: block
+}
+.server_announce {
+	height: 174px;
+	clear: both;
+}
+
+.server_tt {
+	height: 24px;
+	padding-top: 10px;
+}
+.server_tab {
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 10px;
+}
+.server_tab li {
+	float: left;
+	margin-left: 10px;
+	padding-bottom: 2px;
+	cursor: pointer;
+}
+.server_tab .on {
+	color: #000;
+	border-bottom: 1px solid #f00;
+	font-weight: bold;
+}
+.service_div {
+	overflow: hidden;
+	padding: 0 0 0 10px;
+	height: 71px;
+	padding-top: 20px;
+}
+
+.tab_con {
+	display: none;
+}
+.service_div a {
+	width: 60px;
+	float: left;
+	display: block;
+	text-align: center;
+}
+.service_div a span {
+	display: block;
+	color: #333;
+}
+.service_ico {
+	background: url(../img/index/tongzhi.png) no-repeat;
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+}
+.service_zheng {
+	background-position: -42px -44px;
+}
+.service_mian {
+	background-position: -214px -44px;
+}
+
+.service_jian {
+	background-position: -156px -44px;
+}
+.service_shou {
+	background-position: -100px -44px;
+}
+.news_ul {
+	padding-left: 18px;
+	overflow: hidden;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+.news_ul li {
+	line-height: 24px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.news_ul a {
+	color: #707070;
+}
+.news_ul a .mark {
+	color: #333;
+}

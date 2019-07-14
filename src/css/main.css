@@ -1,0 +1,296 @@
+.wrap {
+	margin: 0 auto;
+	width: 1190px;
+}
+
+.main_body {
+	position: relative;
+	width: 1190px;
+}
+
+.specialAds {
+	width: 100%;
+	height: auto;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.index_floor {
+	margin-top: 30px;
+	border: 1px solid #F3F3F3;
+	color: #5e5e5e;
+	width: 1190px;
+	height: 485px;
+	border-top: none;
+	border-bottom: none;
+}
+
+.index_floor .in_floor_l {
+	float: left;
+	width: 180px;
+}
+
+.index_floor .in_floor_r {
+	float: right;
+	width: 1010px;
+}
+
+.in_floor_r .sale {
+	height: 284px;
+}
+
+.in_floor_r .sp_show {
+	height: 201px;
+}
+
+.in_floor_r .sp_show li {
+	float: left;
+	width: 161px;
+	padding: 20px 20px 10px 20px;
+	border-right: 1px solid #F3F3F3;
+	border-bottom: 1px solid #F3F3F3;
+	height: 170px;
+}
+
+.in_floor_r .sp_show li a {
+	display: block;
+}
+
+.in_floor_r .sp_show li a.tit {
+	font-size: 14px;
+	height: 20px;
+	overflow: hidden;
+	text-align: center;
+	margin: 15px 0 5px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.in_floor_r .sp_show li p {
+	color: #e72418;
+	font-size: 16px;
+	text-align: center;
+}
+
+.in_floor_r .sp_show li p i {
+	font-size: 12px;
+	padding-right: 5px;
+}
+
+.in_floor_r .sp_show li img {
+	width: 100px;
+	height: 100px;
+	margin-left: 30px;
+}
+
+.in_floor_r .sale .sale_slider {
+	width: 605px;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	border-right: 1px solid #f3f3f3;
+}
+
+.in_floor_r .sale .sale_ads {
+	height: 100%;
+	float: left;
+}
+
+.in_floor_r .sale .sale_ads img {
+	width: 201px;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #F3F3F3;
+}
+
+.in_floor_r .sale .sale_ads img.last {
+	border-right: 0;
+}
+
+.tsSlide,
+.y_slide_img {
+	width: 750px;
+	height: 400px;
+}
+
+.y_slide_img {
+	position: absolute;
+}
+
+.in_floor_r .sale .sale_slider img {
+	width: 605px;
+	height: 100%;
+	position: absolute;
+}
+
+.in_floor_l .floor_name {
+	padding-left: 20px;
+	height: 85px;
+	line-height: 85px;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+.in_floor_l .floor_name1 {
+	background: #92c4ff;
+}
+
+.in_floor_l .floor_name2 {
+	background: #ffa27a;
+}
+
+.in_floor_l .floor_name3 {
+	background: #ff6b6b;
+}
+
+.in_floor_l .floor_name4 {
+	background: #f6c89e;
+}
+
+.in_floor_l .floor_name5 {
+	background: #aee177;
+}
+
+.in_floor_l .floor_name6 {
+	background: #ffacd0;
+}
+
+.in_floor_l .floor_name7 {
+	background: #cac3f2;
+}
+
+.in_floor_l .floor_name8 {
+	background: #fcb0c0;
+}
+
+.in_floor_l .floor_name9 {
+	background: #cac3f2;
+}
+
+.index_floor1 {
+	border-top: 2px solid #92c4ff;
+}
+
+.index_floor2 {
+	border-top: 2px solid #ffa27a;
+}
+
+.index_floor3 {
+	border-top: 2px solid #ff6b6b;
+}
+
+.index_floor4 {
+	border-top: 2px solid #f6c89e;
+}
+
+.index_floor5 {
+	border-top: 2px solid #aee177;
+}
+
+.index_floor6 {
+	border-top: 2px solid #ffacd0;
+}
+
+.index_floor7 {
+	border-top: 2px solid #cac3f2;
+}
+
+.index_floor8 {
+	border-top: 2px solid #fcb0c0;
+}
+
+.index_floor9 {
+	border-top: 2px solid #cac3f2;
+}
+
+.in_floor_l li {
+	float: left;
+	width: 89px;
+	height: 49px;
+	border: 1px solid #F3F3F3;
+	border-left: none;
+	border-top: none;
+	text-align: center;
+	line-height: 49px;
+	font-size: 14px;
+}
+.in_floor_l li a{
+	font-size: 14px;
+}
+.in_floor_l li a:hover{
+	color: #ff5247;
+}
+
+.in_floor_l li img {
+	width: 89px;
+	height: 49px;
+}
+
+
+.specialAds .limited_time {
+	width: 178px;
+	height: 150px;
+	float: left;
+	margin-right: 0px;
+}
+
+.lastAds {
+	margin-right: 0px;
+}
+
+.limited_time .clock-wrap {
+	position: relative;
+	width: 180px;
+	height: 150px;
+	background: url(../img/index/clock.png) no-repeat;
+}
+
+.limited_time .clock {
+	position: absolute;
+	left: 63px;
+	top: 32px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 4px solid transparent;
+}
+
+.limited_time .clock .clock-h {
+	position: absolute;
+	top: 5px;
+	left: 19px;
+	height: 18px;
+	width: 5px;
+	background: url(../img/index/clock_h.png) no-repeat;
+	transform: rotate(10deg);
+	transform-origin: 2.5px 16.5px 0px;
+}
+
+.limited_time .clock .clock-m {
+	position: absolute;
+	left: 5px;
+	top: 19px;
+	width: 19px;
+	height: 5px;
+}
+
+.limited_time .clock .clock-s {
+	position: absolute;
+	left: 17px;
+	top: -6px;
+	width: 5px;
+	height: 26px;
+	transform-origin: 50% bottom 0px;
+	animation: tick-tock 10s linear infinite;
+}
+
+.tsSlide {
+	position: relative;
+	overflow: hidden;
+}

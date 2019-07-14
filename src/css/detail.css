@@ -1,0 +1,465 @@
+.xiaoshi {
+	display: none;
+}
+
+.allSort {
+	float: left;
+	width: 180px;
+	position: absolute;
+	height: auto;
+}
+
+.allSort:hover .xiaoshi {
+	display: block;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 1190px;
+}
+
+.preview_wrap {
+	width: 352px;
+	float: left;
+}
+
+.preview_wrap .preview {
+	position: relative;
+}
+
+.preview_wrap .preview .jqzoom {
+	position: relative;
+	padding: 0;
+}
+
+.preview_wrap .preview .jqzoom img {
+	width: 100%;
+	height: 100%;
+}
+
+.preview_wrap .preview .main_img {
+	border: 1px solid #eee;
+	margin-bottom: 20px;
+}
+
+.preview_wrap .preview .spec_list {
+	position: relative;
+	margin-bottom: 18px;
+}
+
+.preview_wrap .preview .spec_list .arrow_prev {
+	display: block;
+	width: 22px;
+	height: 32px;
+	float: left;
+	position: absolute;
+	cursor: pointer;
+	top: 50%;
+	margin-top: -16px;
+	left: 0;
+}
+
+.preview_wrap .preview .spec_list .arrow_prev i {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../img/index/disabled-prev.png) no-repeat;
+}
+
+.preview_wrap .preview .spec_list .arrow_next {
+	display: block;
+	width: 22px;
+	height: 32px;
+	float: left;
+	position: absolute;
+	cursor: pointer;
+	top: 50%;
+	margin-top: -16px;
+	right: 0;
+}
+
+.preview_wrap .preview .spec_list .arrow_next i {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../img/index/hover-next.png) no-repeat;
+}
+
+.preview_wrap .preview .spec_list .spec_list {
+	margin-left: 30px;
+	position: relative;
+	width: 290px;
+	height: 54px;
+	overflow: hidden;
+}
+
+.preview_wrap .preview .spec_list .spec_list .ch {
+	position: absolute;
+	width: 348px;
+	height: 54px;
+	top: 0px;
+	left: 0px;
+}
+
+.preview_wrap .preview .spec_list .spec_list .ch li {
+	float: left;
+	margin: 0 2px;
+}
+
+.preview_wrap .preview .spec_list .spec_list .ch li:hover img {
+	border: 2px solid #e53e41;
+}
+
+.preview_wrap .preview .spec_list .spec_list .ch li img {
+	border: 2px solid #fff;
+}
+
+.preview_wrap .preview .right_btns {
+	height: 20px;
+}
+
+.preview_wrap .preview .right_btns .follow {
+	color: #666;
+	font-size: 12px;
+	margin-right: 2px;
+}
+
+.preview_wrap .preview .right_btns .follow:hover {
+	color: #E3393C;
+}
+
+.preview_wrap .preview .right_btns .follow i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/index/common_sprite.png) no-repeat right -61px;
+
+}
+
+.list_lable_self {
+	float: left;
+	margin-top: 5px;
+	margin-right: 6px;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	width: 32px;
+	height: 18px;
+	background: url(../img/index/sale_self_ico.png);
+
+}
+
+.itemInfo_wrap {
+	width: 590px;
+	float: left;
+	margin-left: 30px;
+}
+
+.itemInfo_wrap .sku_name {
+	font-size: 16px;
+	font-weight: 700;
+	color: #666;
+	padding-top: 10px;
+	line-height: 28px;
+	margin-bottom: 5px;
+}
+
+.itemInfo_wrap .sku_name img {
+	vertical-align: -2px;
+}
+
+.itemInfo_wrap .news {
+	color: #e4393c;
+	margin-bottom: 5px;
+}
+
+.itemInfo_wrap .news .item {
+	width: 590px;
+}
+.itemInfo_wrap .news .item p{
+	margin: 10px;
+	background:#e4393c;
+	color: white;
+	height: 40px;
+	width: 300px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.itemInfo_wrap .news .item a {
+	text-decoration: underline;
+	color: #e4393c;
+}
+
+.itemInfo_wrap .summary {
+	position: relative;
+	padding-bottom: 5px;
+}
+
+.itemInfo_wrap .summary_price_wrap {
+	padding: 10px 0 0;
+}
+
+.itemInfo_wrap .summary_price_wrap .summary_price {
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.itemInfo_wrap .summary_price_wrap .summary_price .dt {
+	float: left;
+	padding-left: 10px;
+	color: #333;
+	line-height: 32px;
+	font-size: 16px;
+}
+
+.itemInfo_wrap .summary_price_wrap .summary_price .dd {
+	margin-left: 70px;
+}
+
+.itemInfo_wrap .summary_price_wrap .summary_price .dd .p_price {
+	color: #E4393C;
+	margin-right: 10px;
+}
+
+.itemInfo_wrap .summary_price_wrap .summary_price .dd .p_price span {
+	font-size: 22px;
+}
+
+.summary_info {
+	float: left;
+	margin-left: 60px;
+}
+
+.summary_info span {
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.summary_info b {
+	font-size: 20px;
+}
+
+.itemInfo_wrap .p_choose_wrap {
+	position: relative;
+	padding-bottom: 5px;
+}
+
+.itemInfo_wrap .p_choose_wrap .choose_btns {
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.itemInfo_wrap .p_choose_wrap .choose_btns .choose_amount {
+	width: 58px;
+	height: 44px;
+	border: 1px solid #ccc;
+	position: relative;
+	margin-right: 10px;
+	float: left;
+}
+
+.itemInfo_wrap .p_choose_wrap .choose_btns .choose_amount .wrap_input .text {
+	display: block;
+	width: 43px;
+	height: 42px;
+	line-height: 42px;
+	position: absolute;
+	top: 1px;
+	left: 0;
+	border: none;
+	border: 0;
+	text-align: center;
+}
+
+.itemInfo_wrap .p_choose_wrap .choose_btns .choose_amount .wrap_input .btn_reduce {
+	display: block;
+	width: 15px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+	background: #f1f1f1;
+	color: #666;
+	position: absolute;
+	right: -1px;
+	border: 1px solid #ccc;
+	bottom: 0;
+}
+
+.itemInfo_wrap .p_choose_wrap .choose_btns .choose_amount .wrap_input .btn_add {
+	display: block;
+	width: 15px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+	background: #f1f1f1;
+	color: #666;
+	position: absolute;
+	right: -1px;
+	border: 1px solid #ccc;
+	top: -1px;
+}
+
+.itemInfo_wrap .p_choose_wrap .choose_btns .choose_amount .wrap_input .disabled {
+	color: #ccc;
+	cursor: not-allowed;
+}
+
+.itemInfo_wrap .p_choose_wrap .choose_btns .choose_amount .btn_lg {
+	display: block;
+	width: 120px;
+	text-align: center;
+	height: 45px;
+	line-height: 46px;
+	padding: 0 26px;
+	font-size: 18px;
+	margin-left: 80px;
+	float: left;
+	background-color: #df3033;
+	color: #fff;
+}
+
+.itemInfo_wrap .p_choose_wrap .summary_tips {
+	margin-bottom: 5px;
+	float: left;
+	padding-left: 10px;
+	color: #999;
+	font-size: 12px;
+}
+
+.tab_con_item div {
+	overflow: hidden;
+}
+
+.tab_con_item div img {
+	display: block;
+	width: 100%;
+}
+
+.tab_con_item div img:nth-child(1) {
+	height: 391px;
+}
+
+.tab_con_item .box_liuyan {
+	display: block;
+margin:0 auto	;
+	overflow: hidden;
+	width: 1000px;
+	background: #ebebeb;
+}
+
+.tab_con_item .box_liuyan .liuyanban {
+	width: 600px;
+	height: 170px;
+	margin: 50px auto 30px;
+}
+
+.tab_con_item .box_liuyan .liuyanban p {
+	font-size: 12px;
+	color: #666;
+	line-height: 45px;
+	text-indent: 20px;
+}
+
+.tab_con_item .box_liuyan .liuyanban .liuyan {
+	width: 560px;
+	height: 70px;
+	margin: 0 auto;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	padding: 8px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.tab_con_item .box_liuyan .liuyanban .but {
+	width: 560px;
+	height: 35px;
+	margin: 15px auto 0px;
+	position: relative;
+}
+
+.tab_con_item .box_liuyan .liuyanban .but .submit {
+	width: 80px;
+	height: 30px;
+	background: #ff8140;
+	display: block;
+	float: right;
+	line-height: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+.tab_con_item .box_liuyan .msgCon {
+	width: 600px;
+	margin: 0px auto;
+	margin-bottom: 60px;
+}
+
+.tab_con_item .box_liuyan .msgCon .msgBox {
+	background: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 16px;
+	border-radius: 4px;
+}
+
+.tab_con_item .box_liuyan .msgCon .msgBox .headUrl {
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px dotted #ddd;
+	display: flex;
+	align-items: center;
+}
+
+.tab_con_item .box_liuyan .msgCon .msgBox .headUrl .uuurl {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	display: block;
+	border:1px solid salmon;
+	background: url(../img/index/01-115.png) no-repeat;
+	background-size: 100%;
+}
+
+.tab_con_item .box_liuyan .msgCon .msgBox .headname {
+
+	margin-left: 16px;
+}
+
+.tab_con_item .box_liuyan .msgCon .msgBox .headname .name_id {
+	font-size: 16px;
+}
+
+.tab_con_item .box_liuyan .msgCon .msgBox .headname .name_time {
+	font-size: 14px;
+	margin-top: 6px;
+}
+
+.tab_con_item .box_liuyan .msgCon .msgBox .headdel {
+
+	font-size: 14px;
+	margin-left: 250px;
+	color: salmon;
+	cursor: pointer;
+}
+
+.tab_con_item .box_liuyan .msgCon .msgTxt {
+	font-size: 14px;
+	min-height: 40px;
+	line-height: 24px;
+	padding: 10px;
+	box-sizing: border-box;
+	word-wrap: break-word;
+	background: #fff;
+	border-radius: 0 0 4px 4px;
+}

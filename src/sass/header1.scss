@@ -1,0 +1,348 @@
+.header_nav {
+    width: 100%;
+    background: #f1f1f1;
+    border-bottom: 1px solid #e9e9e9;
+
+    .content {
+        width: 1190px;
+        margin: 0 auto;
+        height: 36px;
+        background: #f1f1f1;
+    }
+}
+
+.menu {
+    padding: 0 10px;
+    line-height: 36px;
+
+    .province_box {
+        position: relative;
+        padding-right: 3px;
+        z-index: 999;
+
+        span {
+            float: left;
+            padding-left: 5px;
+        }
+
+        .province_name {
+            background-position: right 7px;
+            padding: 0 15px 0 5px;
+            line-height: 20px;
+            height: 25px;
+            display: inline-block;
+            margin: 8px 0 0 5px;
+            text-align: center;
+            color: #707070;
+            font-size: 12px;
+        }
+
+        .hd_provinceList {
+            display: none;
+            position: absolute;
+            top: 36px;
+            left: -1px;
+            width: 280px;
+            border: 1px solid #e5e5e5;
+            background: #fff;
+            color: #333;
+            font-weight: 400;
+            cursor: default;
+            padding: 5px 0;
+            border-top: none;
+
+            li {
+                padding-left: 10px;
+                color: #a5a5a5;
+                line-height: 22px;
+                font-weight: 700;
+
+                a {
+                    margin: 0 4px 0 4px;
+                    padding: 1px 2px;
+                    font-weight: 400;
+                }
+
+                em {
+                    float: left;
+                    width: 10px;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    a {
+        &:hover {
+            color: #0083ce;
+            text-decoration: underline;
+        }
+
+        em {
+            float: left;
+            cursor: pointer;
+        }
+    }
+
+    .myyaowang {
+        z-index: 1000;
+        background-position: right 7px;
+        padding: 0 14px 0 0;
+    }
+
+    .tellnumber {
+        color: #c7a774;
+        font-weight: 700;
+    }
+}
+
+.province_box:hover .hd_provinceList {
+    display: block;
+}
+
+.header_nav_r {
+    .menu_bd {
+        position: absolute;
+        left: -3px;
+        top: 0;
+
+        .menu_bd_panel {
+            display: none;
+            padding: 32px 0 0;
+            border: #ddd 1px solid;
+            text-align: center;
+
+            li {
+                &:hover {
+                    background-color: #f3f3f3;
+                }
+
+                a {
+                    line-height: 24px;
+                    height: 24px;
+                    width: 82px;
+                }
+            }
+        }
+    }
+
+    #menu_bd_orther {
+        z-index: 999;
+        width: 95px;
+        height: 36px;
+    }
+
+    #menu_bd_orther:hover .menu_bd_panel {
+        display: block;
+        background: #fff;
+    }
+}
+
+.head_app {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 10px;
+
+    &:hover {
+        background: #fff;
+    }
+}
+
+#menu_bd_app {
+    z-index: 999;
+    display: none;
+    background-color: #fff;
+    float: left;
+    line-height: 24px;
+    right: -13px;
+    top: 36px;
+    padding: 12px 0 12px 5px;
+    position: absolute;
+    width: 205px;
+
+    .dimensional {
+        width: 85px;
+        background-position: -88px -223px;
+        height: 85px;
+
+        float: left;
+        margin: 0 auto;
+    }
+
+    .redBold {
+        color: #e72418;
+        font-weight: 700;
+    }
+}
+
+.head_app:hover #menu_bd_app {
+    display: block;
+}
+
+.yao_head {
+    margin: 0 auto;
+    width: 1190px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 180px;
+    float: left;
+    height: 113px;
+    overflow: hidden;
+    margin-right: 105px;
+    padding-top: 26px;
+
+    a {
+        display: block;
+        text-indent: -999px;
+        width: 180px;
+        height: 61px;
+        background: url(../img/index/logo_head.png) no-repeat;
+    }
+}
+
+.search {
+    width: 778px;
+    float: left;
+    margin-bottom: 15px;
+
+    .searchForm {
+        float: left;
+        margin: 34px 0 0 0;
+        position: relative;
+
+        input {
+            width: 435px;
+            float: left;
+            height: 44px;
+            line-height: 44px;
+            padding: 0 5px 0 9px;
+            border: 1px solid #c7a774;
+            color: #666;
+            font-size: 15px;
+            vertical-align: middle;
+            background-color: #fff;
+        }
+
+        .searchBtn {
+            float: left;
+            width: 82px;
+            height: 46px;
+            line-height: 55px;
+            border: 1px solid #c7a774;
+            cursor: pointer;
+            background-color: #fff;
+            margin-left: -1px;
+        }
+
+        .search_nav {
+            background-color: #fff;
+            border: 1px solid #e6e6e6;
+            display: block;
+            position: absolute;
+            top: 44px;
+            left: 0px;
+            width: 449px;
+
+            li {
+                margin: 7px 10px;
+            }
+        }
+    }
+
+    .hot {
+        float: left;
+        height: 16px;
+        margin-top: 10px;
+        width: 778px;
+        overflow: hidden;
+
+        a {
+            margin-right: 10px;
+            height: 16px;
+            line-height: 16px;
+        }
+    }
+}
+
+.erCode {
+    position: absolute;
+    right: 140px;
+    top: 10px;
+    width: 123px;
+    height: 115px;
+    background: url(../img/index/code.jpg)no-repeat;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.red {
+    color: #e54948;
+}
+
+
+.dimensional,
+.favorite em,
+.myyaowang,
+.province_name,
+.tell em {
+    background: url(../img/index/common_sprite.png) no-repeat right 0;
+}
+
+.favorite em {
+    background-position: right -61px;
+    width: 15px;
+    margin-left: -2px;
+    margin-right: 5px;
+}
+
+.favorite em,
+.tell em {
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.tell em {
+    background-position: right -108px;
+    width: 10px;
+}
+
+.myyaowang,
+.tell {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.hd_fold {
+    background-position: right -17px;
+    border-bottom: 0
+}
+
+.province_name:hover,
+.myyaowang:hover {
+    background-position: right -18px;
+}
+
+.province_box:hover,
+.province_box:hover .province_name {
+    background-color: #fff;
+}
+
+.blue {
+    color: #0083ce;
+}
+
+.icon-phone {
+    float: left;
+    font-size: 18px;
+    color: #0083ce;
+    margin: 0 1px 0 0;
+}

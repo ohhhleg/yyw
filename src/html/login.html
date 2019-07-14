@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../lib/jquery-1.10.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <a class="logo" href="0index.html">
+                <img id="logo" src="../img/reglogin/yao_logo.png">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class=" reg">
+            <a class="saoma" target="_blank"></a>
+            <div class="tab ">
+                <div class="item cur" id="commonLoginTab">
+                    <a href="javascript:void(0);">普通登录</a>
+                </div>
+                <div class="item" id="quickLoginTab">
+                    <a href="javascript:void(0);">手机快速登录</a>
+                </div>
+            </div>
+            <div class="login_box">
+                <div class="common_login" id="commonLogin" style="display: block;">
+                    <h2 class="reg_title
+                    "><span class="fr">还不是1药网会员？<a class="blue_login" href="../html/reg.html">免费注册</a></span>Hi，欢迎登录！
+                    </h2>
+                    <form autocomplete="off">
+                        <div class="reg_row">
+                            <!-- 用户名 -->
+                            <input name="name" tabindex="1" class="input u_name" id="userName" type="text"
+                                placeholder="邮箱/手机号/用户名" autocomplete="off">
+                            <i class="i_empty" id="pas_empty" style="display: none;">不能为空</i>
+                            <span class="error" id="name_desc"></span>
+                        </div>
+                        <div class="reg_row">
+                            <!-- 密码 -->
+                            <input name="password" tabindex="2" class="input u_ps" id="userPass" type="password"
+                                placeholder="登录密码" autocomplete="off">
+                            <span class="fr"><a tabindex="-1" class="forget" href="###" target="_blank">忘记密码？</a></span>
+                            <span class="error" id="pwd_desc"></span>
+                        </div>
+                        <div>
+                            <!-- 1药网协议-->
+                            <!-- <label class="checkbox"><input name="rememberPwd" tabindex="-1" id="rememberPwd"
+                                    type="checkbox" value="1"> -->
+                                <!-- <span class="two_week">两周内免登录</span> -->
+                            <!-- </label> -->
+                            <button class="btn" id="btnSubmit1" type="button">登录</button><br>
+                            <span class="error" id="login_desc"></span>
+                        </div>
+                        <div class="protocal_warm">
+                            <span class="two_week">登录即代表您已同意1药网
+                                <a class="blue_login" href="javascript:void(0);">《服务协议》</a>和
+                                <a class="blue_login" href="javascript:void(0);">《隐私条款》</a>
+                            </span>
+                        </div>
+
+                        <div class="reg_row logo_login">
+                            <p>使用合作伙伴账号登录：</p>
+                            <a class="first a_wx" href="javascript:void(0);">微信</a>
+                            <a class="a_zfb" href="javascript:void(0);">支付宝</a>
+                            <a class="a_qq" href="javascript:void(0);">QQ</a>
+                        </div>
+                        <div class="moreWebDiv">
+                            <span class="moreWeb">更多合作网站<button class="moreWebBtn"></button></span>
+                            <div class="moreTab">
+                                <a class="first a_yhd" href="javascript:void(0);"></a>
+                                <a class="a_sina" href="javascript:void(0);"></a>
+                                <a class="a_wlt" href="javascript:void(0);"></a>
+                                <a class="last a_wy" href="javascript:void(0);"></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- 快捷登录 -->
+                <div class="common_login" id="quickLogin" style="display: none;">
+                    <h2 class="reg_title
+                    "><span class="fr">还不是1药网会员？<a class="blue_login" href="../html/reg.html">免费注册</a></span>Hi，欢迎登录！
+                    </h2>
+                    <div class="form_group pb35 clearfix">
+                        <label class="lbs fl">
+                            <input class="txt phone" id="phone" type="text" placeholder="请输入您的手机号码" value="">
+                            <i class="i_empty" id="phone_empty" style="display:none;">不能为空</i>
+                            <span class="error" id="phone_error" style="display: none">手机号格式不对</span>
+
+                        </label>
+                    </div>
+                    <div class="reg_row pb35 verify_box" id="vcd_div" style="display: none">
+                        <input name="validCode" tabindex="3" class="input u_verify" id="vcd_sms" type="text"
+                            maxlength="4" placeholder="验证码">
+                        <i id="vcd_txt_sms"></i>
+                        <i class="code verify" id="loginVcode_sms"></i>
+                        <a tabindex="-1" class="verifylink" id="changecode_sms" onclick=""
+                            href="javascript:void(0);">换一张</a>
+                        <span class="error" id="vcd_desc_sms"></span>
+                    </div>
+                    <div class="form_group pb35 clearfix">
+                        <label class="lbs fl mr10">
+                            <input class="txt check_num" id="smsCode" type="text" placeholder="请输入短信验证码" value="">
+                            <span class="error" id="smsCodeDesc"></span>
+                        </label>
+                        <label class="lbs fl ">
+
+                            <button class="check_btn" id="getSmsCodeBtn" style="cursor: pointer"
+                                type="button">获取短信验证码</button>
+                        </label>
+                    </div>
+                    <!-- 1药网协议-->
+                    <div>
+                        <button class="btn" id="btnSubmit2" onclick="" type="button">登录</button><br>
+                        <span class="error" id="quickLogin_desc"></span>
+                    </div>
+                    <div class="protocal_warm">
+                        <span class="two_week">登录即代表您已同意1药网
+                            <a class="blue_login" href="javascript:void(0);">《服务协议》</a>和
+                            <a class="blue_login" href="javascript:void(0);">《隐私条款》</a>
+                        </span>
+                    </div>
+
+                    <div class="reg_row logo_login">
+                        <p>使用合作伙伴账号登录：</p>
+                        <a class="first a_wx" href="javascript:void(0);">微信</a>
+                        <a class="a_zfb" href="javascript:void(0);">支付宝</a>
+                        <a class="a_qq" href="javascript:void(0);">QQ</a>
+                    </div>
+                    <div class="moreWebDiv">
+                        <span class="moreWeb">更多合作网站<button class="moreWebBtn"></button></span>
+                        <div class="moreTab">
+                            <a class="first a_yhd" href="javascript:void(0);"></a>
+                            <a class="a_sina" href="javascript:void(0);"></a>
+                            <a class="a_wlt" href="javascript:void(0);"></a>
+                            <a class="last a_wy" href="javascript:void(0);"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <footer>
+        <iframe id="myiframe" src="footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
+    </footer>
+</body>
+<script src="../js/footer.js"> </script>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/login.js"></script>
+
+</html>

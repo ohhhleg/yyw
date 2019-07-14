@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+/*监授隐货免*/
+.commit {
+    padding-top: 62px;
+    clear: both;
+
+    .commit_con {
+        width: 1190px;
+        height: 100px;
+        margin: 0 auto;
+        background: url(../img/index/jsyhm.png) no-repeat 0 0;
+    }
+}
+
+/*二维码热线*/
+.app_part_con {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.app_part {
+    margin-top: 60px;
+}
+
+.service_port {
+    width: 250px;
+    float: right;
+    border-left: 1px solid #eee;
+    text-align: center;
+    padding: 15px 0;
+    margin-right: 50px;
+
+    .service_time {
+        color: #999;
+        line-height: 18px;
+        padding-top: 8px;
+    }
+
+    .tel {
+        font-size: 20px;
+        color: #c7a774;
+        font-weight: 700;
+    }
+
+}
+
+.app_part_ul {
+    float: left;
+    padding-left: 110px;
+
+    li {
+        width: 255px;
+        float: left;
+    }
+
+    .code_img {
+        width: 94px;
+        height: 94px;
+        float: left;
+        margin-right: 12px;
+    }
+
+    .app_part_right {
+        padding-top: 27px;
+
+        .h2_tt {
+            font-size: 15px;
+            color: #1c1c1c;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+    }
+}
+
+/*工商信息*/
+.page_footer {
+    background: #f0f0f0;
+    margin-top: 65px;
+    padding-top: 45px;
+
+    .page_footer_con {
+        width: 1190px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+.footer_bottom_unit {
+    position: relative;
+    padding-left: 215px;
+    padding-top: 15px;
+
+    .footer_logo_img {
+        position: absolute;
+        left: 0px;
+        top: 30px;
+    }
+
+    /*壹药网*/
+    .help_part {
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 25px;
+        overflow: hidden;
+    }
+
+    dl {
+        width: 155px;
+        float: left;
+
+        dt {
+            font-weight: bold;
+            color: #1c1c1c;
+            font-size: 15px;
+            padding-bottom: 10px;
+        }
+
+        dd {
+            line-height: 26px;
+
+            a {
+                color: #666;
+
+                &:hover {
+                    color: #333;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    /*111集团*/
+    .copy_right {
+        color: #5e5e5e;
+        text-align: center;
+        padding: 5px 0 30px;
+
+        .yyw_member {
+            overflow: hidden;
+            padding-top: 25px;
+
+            .member_mark {
+                color: #666;
+                float: left;
+                line-height: 56px;
+            }
+
+            .member_ul {
+                float: left;
+                font-weight: 800;
+                font-size: 14px;
+                color: #333;
+                text-align: left;
+                margin-left: 15px;
+
+                li {
+                    width: 270px;
+                    float: left;
+                    line-height: 56px;
+                }
+
+                img {
+                    width: 56px;
+                    height: 56px;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .bottom_link {
+            text-align: left;
+            line-height: 30px;
+            padding-top: 30px;
+            margin-left: -20px;
+
+            a {
+                margin: 0 20px;
+                color: #666;
+
+                &:hover {
+                    color: #333;
+                }
+            }
+        }
+
+        .copy_info {
+            text-align: left;
+            color: #999;
+            line-height: 20px;
+            padding-top: 15px;
+
+            a {
+                color: #999;
+                display: inline-block;
+            }
+
+            .copy_ico {
+                margin: 0 5px;
+                width: 20px;
+                height: 20px;
+                background: url(../img/index/copy_ico.png) no-repeat 0px 0px;
+                position: relative;
+                top: 5px;
+            }
+        }
+    }
+}
+
+.verify {
+    overflow: hidden;
+    margin-left: -10px;
+
+    a {
+        margin-right: 7px;
+        display: block;
+        float: left;
+    }
+}
+
+.v1 {
+    width: 90px;
+    height: 35px;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.vl_1,
+.vl_2,
+.vl_3,
+.vl_4,
+.vl_5,
+.vl_6,
+.vl_7,
+.vl_8,
+.vl_9 {
+    background-image: url(../img/index/other_logo.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    float: left;
+    width: 88px;
+    height: 35px;
+    text-indent: -999px;
+
+}
+
+.vl_1 {
+    background-position: 0 0;
+}
+
+.vl_2 {
+    background-position: -98px 0;
+}
+
+.vl_3 {
+    background-position: -196px 0;
+}
+
+.vl_4 {
+    background-position: -294px 0;
+}
+
+.vl_5 {
+    background-position: -392px 0;
+}
+
+.vl_6 {
+    background-position: -490px 0;
+}
+
+.vl_7 {
+    background-position: -588px 0;
+}
+
+.vl_8 {
+    background-position: -686px 0;
+}
+
+.vl_9 {
+    background-position: -780px 0;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="preview_wrap">
+        <div class="preview" id="preview">
+            <div class="jqzoom main_img" id="spec_n1">
+                <img class="p1" src="../img/index/big1.jpg" data-large="../img/index/big1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/zoomsl.min.js"></script>
+<script>
+    $(function(){
+        $('.p1').imagezoomsl({
+	
+    zoomrange: [1, 10],
+    cursorshadeborder: '10px solid #000',
+    magnifiereffectanimate: 'fadeIn',
+    magnifierpos: 'left'		
+});	
+    })();
+    
+</script>
+</html>

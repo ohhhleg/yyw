@@ -1,0 +1,443 @@
+.head {
+  height: 98px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1000px;
+  box-sizing: border-box;
+}
+.head .logo {
+  float: left;
+  margin-left: 10px;
+}
+
+.reg {
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+  background: url(../img/reglogin/login.png) no-repeat left top;
+  min-height: 350px;
+  color: #5e5e5e;
+  border: #e6e6e6 1px solid;
+  border-top: #0083ce 2px solid;
+  box-shadow: -1px 1px 10px #efefef, -1px 10px 10px #efefef;
+  padding-top: 8px;
+}
+.reg .tab {
+  height: 25px;
+  margin-left: 560px;
+  padding: 10px 0;
+  padding-top: 2px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.reg .tab .item {
+  float: left;
+  position: relative;
+  width: 50%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;
+}
+.reg .tab .item a {
+  display: block;
+  position: relative;
+  margin: 0 30px;
+}
+.reg .tab .item .cur a {
+  color: #2c9ee1;
+}
+.reg .common_login {
+  margin-left: 560px;
+  padding: 0 30px;
+}
+.reg .common_login .reg_title {
+  font-size: 16px;
+  padding: 0;
+}
+.reg .common_login .form_group {
+  position: relative;
+}
+.reg .common_login .form_group .lbs {
+  display: block;
+  position: relative;
+}
+.reg .common_login .form_group .lbs .error {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding-left: 25px;
+  font-size: 12px;
+  line-height: 35px;
+  color: #f12424;
+  background: url(../img/reglogin/logo_error.png) 0 center no-repeat;
+  overflow: hidden;
+  width: 340px;
+}
+.reg .common_login .form_group .check_btn {
+  display: block;
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #C6E1F0;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #5cbaf0;
+  background-color: #f1faff;
+}
+.reg .common_login .form_group .txt {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+  line-height: 20px;
+}
+.reg .common_login .form_group .check_num {
+  width: 140px;
+  padding-left: 42px;
+  background: url(../img/reglogin/logo_key.png) 18px center no-repeat;
+}
+.reg .common_login .form_group .phone {
+  width: 270px;
+  padding-left: 42px;
+  background: url(../img/reglogin/logo_phone.png) 18px center no-repeat;
+}
+.reg .common_login .protocal_warm {
+  padding-top: 10px;
+}
+.reg .common_login .btn {
+  width: 326px;
+}
+.reg .saoma {
+  outline-style: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-indent: -9999px;
+  display: block;
+  width: 500px;
+  height: 362px;
+}
+.reg .reg_title {
+  font-size: 20px;
+  margin: 13px 0;
+  padding-left: 588px;
+  padding-right: 18px;
+}
+.reg .reg_title span {
+  float: right;
+  font-size: 12px;
+  margin-top: 7px;
+}
+.reg .reg_row {
+  height: 70px;
+  width: 340px;
+}
+.reg .reg_row .error {
+  color: #e72418;
+  padding-top: 5px;
+}
+.reg .reg_row .empty {
+  border: #ffaa00 1px solid;
+}
+.reg .reg_row li {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+  padding: 0 9px;
+  border-right: 1px solid #fff;
+  color: #fff;
+}
+.reg .reg_capslock {
+  margin-top: -30px;
+  margin-bottom: 10px;
+  width: 338px;
+  background-color: #ffffe5;
+  border: 1px solid #fadd87;
+  color: #f60;
+  position: relative;
+}
+.reg .reg_capslock .capsLock_i {
+  background: url(../img/reglogin/regest.png) no-repeat 5px -50px;
+  display: inline-block;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 20px;
+}
+.reg .reg_capslock .capsLock_s {
+  background: url(../img/reglogin/ia_10004.png) no-repeat -15px -62px;
+  bottom: -9px;
+  height: 9px;
+  left: 38px;
+  position: absolute;
+  width: 15px;
+}
+
+.tellnumber,
+.u_ps,
+.u_name,
+.u_email,
+.i_empty,
+.i_true,
+.i_false {
+  background: url(../img/reglogin/regest.png) no-repeat 0 0;
+}
+
+.i_empty,
+.i_true,
+.i_false {
+  height: 16px;
+  width: auto;
+  float: right;
+  padding-right: 25px;
+  margin-top: -28px;
+}
+
+.input {
+  display: block;
+  width: 286px;
+  height: 26px;
+  padding: 6px 12px 6px 40px;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: transparent;
+  border: 1px solid #e6e6e6;
+}
+.input:focus {
+  border-color: #0083ce;
+}
+
+.u_name {
+  background-position: 8px -114px;
+}
+
+.u_ps {
+  background-position: 8px -145px;
+}
+
+.u_verify {
+  width: 150px;
+  margin-right: 10px;
+  padding-left: 10px;
+  float: left;
+}
+
+.i_empty {
+  background-position: right -57px;
+}
+
+.i_false {
+  background-position: right -26px;
+}
+
+.i_true {
+  background-position: right 2px;
+}
+
+.safe {
+  float: right;
+  line-height: 24px;
+  color: #a5a5a5;
+}
+
+.pas_safe ul {
+  margin-top: 6px;
+  margin-left: 6px;
+  float: right;
+  background: #fff url(../img/reglogin/safe.png) no-repeat 0 0;
+}
+
+.verify_box .i_true,
+.verify_box .i_false {
+  float: left;
+  margin-left: -34px;
+  margin-top: 12px;
+}
+
+.verify {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  float: left;
+}
+
+.verifylink {
+  float: left;
+  margin-left: 10px;
+  line-height: 40px;
+  color: #0083ce;
+}
+
+.btn_verify {
+  width: 120px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.btn_verify:hover {
+  background: #fff;
+  border: 1px solid #a5a5a5;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 6px 12px;
+  user-select: none;
+  background-color: #0099f1;
+  width: 340px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.logo_login {
+  padding-bottom: 15px;
+  clear: both;
+  overflow: hidden;
+}
+.logo_login p {
+  margin-top: 5px;
+  line-height: 24px;
+  color: #5e5e5e;
+}
+.logo_login a {
+  line-height: 24px;
+  color: #a5a5a5;
+  text-indent: -9999px;
+}
+
+.moreWebDiv {
+  cursor: pointer;
+  float: right;
+  margin-right: 27px;
+  margin-top: -52px;
+  position: relative;
+  height: auto;
+}
+.moreWebDiv .moreWeb {
+  cursor: pointer;
+  float: right;
+  display: block;
+  margin-right: 11px;
+  margin-top: 10px;
+}
+.moreWebDiv .moreTab {
+  display: none;
+  padding-top: 50px;
+  padding-right: 125px;
+  height: auto;
+}
+.moreWebDiv .moreWebBtn {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  float: right;
+  border: none;
+  background: url(../img/reglogin/upanddown.png) no-repeat left top;
+  background-position: -7px -7px;
+}
+
+.moreWebDiv:hover .moreTab {
+  display: block;
+}
+
+.a_yhd,
+.a_zfb,
+.a_qq,
+.a_sina,
+.a_wlt,
+.a_wy,
+.a_wx {
+  background: url(../img/reglogin/img_zhifu.png) no-repeat left top;
+  display: block;
+  float: left;
+  height: 39px;
+  margin-right: 18px;
+  width: 39px;
+}
+.a_yhd:hover,
+.a_zfb:hover,
+.a_qq:hover,
+.a_sina:hover,
+.a_wlt:hover,
+.a_wy:hover,
+.a_wx:hover {
+  background-position-y: -52px;
+}
+
+.first {
+  padding-left: 0px;
+}
+
+.last {
+  border-right: 0;
+}
+
+.a_zfb {
+  background-position: -48px 0;
+}
+
+.a_qq {
+  background-position: -95px 0;
+}
+
+.a_wx {
+  background-position: -294px 0;
+}
+
+.a_yhd {
+  background-position: 0 0;
+}
+
+.a_sina {
+  background-position: -143px 0;
+}
+
+.a_wlt {
+  background-position: -241px 0;
+}
+
+.a_wy {
+  background-position: -191px 0;
+}
+
+.checkbox {
+  display: block;
+  min-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  padding-left: 20px;
+}
+
+.two_week {
+  line-height: 12px;
+}
+
+.pb35 {
+  padding-bottom: 35px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.blue_login {
+  color: #0083ce;
+}
+.blue_login:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=login.css.map */

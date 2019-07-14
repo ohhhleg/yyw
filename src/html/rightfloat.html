@@ -1,0 +1,62 @@
+<div class="float_box" id="rightFloat">
+    <img class="doctor_icon" alt="" src="../img/index/doctor.png">
+    <a name="yao_doctor" title="在线咨询" class="f_home" href="###" target="_self" onmouseover="$('.showConsult').css('display','block')" onmouseout="$('.showConsult').css('display','none')">
+        <div class="zszs"><span>在线</span><span>咨询</span></div>
+    </a>
+    <a name="yao_doctor" title="需求清单" class="f_demand" href="###" target="_self">
+        <div class="zszs"><span>需求</span><span>清单</span></div>
+        <i class="demand_num" id="demandNum">0</i>
+    </a>
+    <a name="yao_doctor" title="购物车" class="f_wei" href="###">
+        <div class="zszs"><span>购物</span><span>车</span></div>
+        <i>0</i>
+    </a>
+    <a name="yao_doctor" title="用户反馈" class="f_back" href="###" onclick="top()">
+        <div class="zszs"><span>用户</span><span>反馈</span></div>
+    </a>
+    <a title="返回顶部" class="f_top" href="###">
+        <div class="zszs"><span>返回</span><span>顶部</span></div>
+    </a>
+    <!--咨询-->
+    <div class="showConsult" style="display: none;">
+        <div class="consult">
+            <div class="d_txt">
+                <a href="###" class="d_txt_r">售前咨询</a>
+                <a href="###" class="d_txt_r">售后咨询</a>
+                <a href="###">团体采购</a>
+                <a href="###">男科</a>
+                <a href="###">妇科</a>
+                <a href="###">糖尿病</a>
+                <a href="###">心脑血管</a>
+                <a href="###">肝胆科</a>
+                <a href="###">神经科</a>
+                <a href="###">肿瘤</a>
+                <a href="###">消化科</a>
+                <a href="###">风湿骨科</a>
+                <a href="###">皮肤性病</a>
+                <a href="###">眼耳鼻喉</a>
+                <a href="###">呼吸科</a>
+                <a href="###">滋补调养</a>
+                <a href="###">营养保健</a>
+                <a href="###">散光验配</a>
+                <a href="###">医疗器械</a>
+                <a href="###">增强抵抗</a>
+            </div>
+        </div>
+    </div>
+    <!--购物车-->
+    <div class="minicart_list" id="bottom_minicart_list" style="display: none;">
+        <!--购物车有商品时-->
+        <div class="list_detail">
+            <ul style="display: none;"></ul>
+            <div class="checkout_box" style="display: none;">
+                <p><span class="fl">共<em>0</em>件商品</span>合计：<em>¥0.00</em></p>
+                <a class="checkout_btn" href="" target="_self">去结算</a>
+            </div>
+        </div>
+    </div>
+    <div class="none_tips" style="display: none;"><i></i>
+        <p>您的购物车里还没有商品，如已添加商品，请<a href="" target="_self">登录</a></p>
+    </div>
+</div>
+<script src="../js/rightfloat.js"></script>

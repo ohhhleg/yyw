@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="../lib/jquery-1.10.1.min.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <div class="head">
+            <a class="logo" href="0index.html">
+                <img id="logo" src="../img/reglogin/yao_logo.png">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="reg">
+            <a class="saoma" id="" target="_blank"></a>
+            <h2 class="reg_title">
+                <span class="fr">我已经注册，现在就<a class="blue_login" href="login.html">登录</a></span>Hi，欢迎注册！
+            </h2>
+            <div class="reg_form">
+                <!-- 用户名 -->
+                <div class="reg_row">
+                    <input class="input u_name empty" id="name" type="text" placeholder="用户名" autocomplete="off">
+                    <i class="i_empty" id="emptyName" style="display: none;">不能为空</i>
+                    <i class="i_true" id="trueName" style="display: none;">可以使用</i>
+                    <span class="error" id="errorName" style="display:none;">用户名已存在</span>
+                </div>
+
+                <!-- 密码 -->
+                <div class="reg_row">
+                    <input class="input u_ps" id="password" maxlength="20" placeholder="登录密码">
+                    <i class="i_empty" id="emptyPw"  style="display: none">不能为空</i>
+                    <span class="error" id="errorPw" style="display:none;">字母开头，总长度至少大于8位</span> <i class="i_true" id="truePw" style="display: none;">正确的密码</i>
+                </div>
+                <!-- 确认密码 -->
+                <div class="reg_row">
+                    <input class="input u_ps u_ps2" id="password2" type="password"
+                        maxlength="20" placeholder="确认密码">
+                    <i class="i_true" id="truePw2" style="display: none;">密码一致</i>
+                    <span class="error" id="errorPw2" style="display:none;">两次密码输入不一致</span>
+                </div>
+                <!-- 手机号码 -->
+                <div class="reg_row verify_box">
+                    <input class="input" id="phone"  type="text" placeholder="手机号码">
+                    <i class="i_false" id="falsePhone" style="display: none"></i>
+                    <i class="i_true" id="truePhpne" style="display: none"></i>
+                    <span class="error" id="errorPhone"></span>
+                </div>
+                <div class="reg_row verify_box">
+                        <input class="input" type="text" id="ma" autocomplete="off" placeholder="点击获取并请输入验证码">
+                        <i class="i_false" id="falseMa"  style="display: none"></i>
+                        <i class="i_true" id="trueMa"  style="display: none"></i>
+                </div>
+                <!-- 用户协议-->
+                <div class="reg_row">
+                    <label class="checkbox">
+                        <span class="two_week">注册即代表您已同意1药网
+                            <a class="" href="javascript:void(0);">《服务协议》</a>和
+                            <a class="" href="javascript:void(0);">《隐私条款》</a>
+                        </span>
+                    </label>
+                    <button class="btn" id="" type="submit">立即注册</button>
+                </div>
+                <div class="reg_row logo_login">
+                    <p>使用合作伙伴账号登录：</p>
+                    <a class="first a_yhd" href="javascript:void(0);">1号店</a>
+                    <a class="a_zfb" href="javascript:void(0);">支付宝</a>
+                    <a class="a_qq" href="javascript:void(0);">QQ</a>
+                    <a class="a_sina" href="javascript:void(0);">新浪微博</a>
+                    <a class="a_wlt" href="javascript:void(0);">万里通</a>
+                    <a class="last a_wy" href="javascript:void(0);">网易</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <iframe id="myiframe" src="footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
+    </footer>
+</body>
+<script src="../js/footer.js"> </script>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/reg.js" type="text/javascript" charset="UTF-8"></script>
+</html>

@@ -1,0 +1,469 @@
+.xiaoshi {
+	display: none;
+}
+
+.allSort {
+	float: left;
+	width: 180px;
+	position: absolute;
+	height: auto;
+}
+
+.allSort:hover .xiaoshi {
+	display: block;
+}
+
+.searchColSub {
+	width: 180px;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 1190px;
+}
+
+.searchColMain {
+	width: 1000px;
+}
+
+.itemChoose {
+	overflow: hidden;
+	margin: 10px 0;
+	border: 1px solid #dbdbdb;
+	border-top: 0;
+}
+
+.info_box {
+	border: 1px solid #e6e6e6;
+	color: #5e5e5e;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+.left_ad {
+	width: 180px;
+	margin-top: 10px;
+}
+
+.left_ad a {
+	float: left;
+	line-height: 250px;
+	font-size: 0px;
+	width: 180px;
+	height: 250px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.info_box h2 {
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px 12px 9px;
+}
+
+.info_box .info_list02 {
+	font-size: 12px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.itemChoose h2 {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px 12px 9px;
+	background-color: #ddd;
+	border-top: 1px solid #dbdbdb;
+}
+
+.itemChoose h3 {
+	height: 36px;
+	overflow: hidden;
+	padding: 0 5px 0 15px;
+	font-size: 12px;
+	line-height: 36px;
+	border-top: 1px solid #e6e6e6;
+	background-color: #f5f5f5;
+}
+
+.itemChoose ul {
+	padding: 7px 0;
+	overflow: hidden;
+	display: none;
+}
+
+.itemChoose li {
+	line-height: 25px;
+	white-space: nowrap;
+	padding: 0 5px 0 34px;
+}
+
+.itemChoose li a span {
+	color: #999;
+	font-weight: normal;
+}
+
+.itemChoose h3:hover ul {
+	display: block;
+}
+
+.zs:hover ul {
+	display: block;
+}
+
+.rankOp {
+	height: 30px;
+	border: 1px solid #dbdbdb;
+	background: #f5f5f5;
+	line-height: 30px;
+}
+
+.rank_select {
+	margin-right: 12px;
+}
+
+.rankOp ul,
+.rankOp li {
+	float: left;
+}
+
+.rankOp ul.select {
+	padding-left: 10px;
+	border-right: 1px solid #DBDBDB;
+}
+
+.rankOp ul.page {
+	float: right;
+	margin-right: 5px;
+}
+
+.rankOp ul.page .pageNum {
+	padding-right: 7px;
+	color: #333;
+}
+
+.rankOp ul.page a {
+	float: left;
+	margin: 8px 0 0 5px;
+	padding: 2px;
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	line-height: 15px;
+}
+
+
+.rankOp ul.page .pageNum span {
+	color: #e54948;
+}
+
+.rank_select input {
+	margin: 0 5px 0 4px;
+	_margin: -3px 0 0 0;
+	vertical-align: middle;
+}
+
+.rank_select label {
+	cursor: pointer;
+}
+
+.rankOp ul.rank li {
+	border-right: 1px solid #dbdbdb;
+}
+
+.rankOp ul.rank li.up a,
+.rankOp ul.rank li.down a,
+.rankOp ul.rank li.normal {
+	background: #fff;
+	color: #e54948;
+	font-weight: 700;
+}
+
+.rankOp ul.rank li a {
+	display: block;
+	padding: 0 10px;
+	color: #333;
+	text-decoration: none;
+}
+
+.rankOp ul.rank li.default span,
+.rankOp ul.rank li.defaultPrice span{
+	background-position: right -400px;
+}
+
+.rankOp ul.rank li.normal a {
+	color: #e54948;
+}
+
+.itemSearchList {
+	margin-right: -13px;
+	position: relative;
+}
+
+.itemSearchList li {
+	padding: 0px 4px;
+}
+.itemSearchResult li:hover .itemSearchResultCon{z-index: 99; border:2px #eaeaea solid; background-color:#fff;}
+.itemSearchList li:hover .productName{ height:auto;white-space:normal;}
+
+.itemSearchResult li .itemSearchResultCon {
+	position: relative;
+	z-index: 0;
+	width: 200px;
+	padding: 7px 14px 10px 14px;
+	border: 3px solid #fff;
+	background-color: #fff;
+}
+
+.itemSearchResult li {
+	float: left;
+	margin: 4px 11px 10px 0;
+	height: 442px;
+	position: relative;
+	width: 234px;
+}
+
+.itemSearchResult li .pro_img {
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.itemSearchResult li p {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.itemSearchResult li p.price {
+	margin-top: 5px;
+	position: relative;
+	padding: 5px 0;
+}
+
+.sell_type_div {
+	padding-bottom: 6px;
+	overflow: hidden;
+	clear: both;
+}
+
+.search_list_op {
+	height: 28px;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	padding: 0 5px;
+	outline: none;
+}
+
+u {
+	text-decoration: none;
+	line-height: 20px;
+	margin-left: 15px;
+}
+
+input,
+select,
+textarea {
+	font-size: 100%;
+}
+
+.itemSearchResult li input.search_list_reduce,
+.itemSearchResult li input.search_list_reduce_gray,
+.itemSearchResult li input.search_list_plus,
+.itemSearchResult li input.search_list_plus_gray {
+	width: 21px;
+	height: 21px;
+	border: 0;
+	background: url(../img/index/listIcon.png) no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.itemSearchResult li input.search_list_reduce_gray {
+	margin-right: 2px;
+}
+
+.itemSearchResult li input.search_list_plus {
+	margin: 0 7px 0 2px;
+	background-position: -23px -23px;
+}
+
+.itemSearchResult li .search_list_op input.search_list_reduce,
+.itemSearchResult li .search_list_op input.search_list_reduce_gray,
+.itemSearchResult li .search_list_op input.search_list_plus,
+.itemSearchResult li .search_list_op input.search_list_plus_gray {
+	margin-top: 4px;
+	width: 19px;
+	height: 19px;
+}
+
+.itemSearchResult li .search_list_op input.search_list_reduce_gray {
+	background-position: -1px -1px;
+}
+
+.itemSearchResult li input.num {
+	width: 30px;
+	height: 14px;
+	line-height: 19px;
+	border: 1px solid #e6e6e6;
+	color: #262626;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 4px;
+	border-top: none;
+	border-bottom: none;
+
+}
+
+.itemSearchResult li .search_list_op input.search_list_plus {
+	background-position: -24px -24px;
+}
+
+.itemChoose .icon_btn,
+.rankOp ul.rank li span,
+.price_range_btn button,
+.rankOp ul.page a.prev,
+.rankOp ul.page a.next,
+.itemSearchResult li button,
+.itemSearchResult .pic_list a.arrow{
+	background: url(../img/index/search_sprite.png) no-repeat 0px 0px;
+}
+.itemChoose .icon_btn {
+	float: left;
+	width: 18px;
+	height: 38px;
+	background-position: -53px 13px;
+}
+
+.rankOp ul.rank li span {
+	display: block;
+	padding: 0 10px 0 0;
+	background-position: 0 0;
+}
+.itemSearchResult li button {
+	width: 78px;
+	height: 26px;
+	margin-right: 5px;
+	border: 0;
+	line-height: 1.2;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.itemSearchResult li .buy {
+	background: #e62418 none;
+	font-size: 12px;
+	color: #fff;
+}
+
+.itemSearchResult li .search_list_op .op_right_btn {
+	padding-left: 26px;
+	width: 88px;
+	float: right;
+	height: 28px;
+	background: #fff;
+	color: #ff6666;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+}
+
+.itemSearchResult li .search_list_op .border_left {
+	border-left: 1px solid #e5e5e5;
+}
+
+.itemSearchResult li .search_list_op .add_cart_btn {
+	background-image: url(../img/index/search_cart.png);
+	background-position: 8px 50%;
+}
+
+.itemSearchList .comment {
+	color: #5e5e5e;
+	height: 20px;
+	line-height: 20px;
+	clear: both;
+}
+
+.itemSearchList .comment_right {
+	float: right;
+	margin-top: 5px;
+}
+
+.goldseller_name {
+	height: 20px;
+	width: 110px;
+	color: #5e5e5e;
+	display: inline-block;
+	line-height: 20px;
+	text-align: left;
+	overflow: hidden;
+	position: relative;
+	margin-left: 0px;
+	top: 5px;
+}
+
+.itemSearchList .self_name {
+	background: url(../img/index/search_zan.png) no-repeat 0 50%;
+	padding-left: 18px;
+	width: auto;
+}
+
+.itemSearchList .comment a {
+	color: #0083ce;
+	float: left;
+	padding-right: 20px;
+}
+
+.itemSearchList .comment_right a {
+	color: #9d9d9d;
+}
+
+.itemSearchList .comment_right a em {
+	color: #ff6666;
+}
+
+.productName {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.promoTitle {
+	display: block;
+	height: 20px;
+	line-height: 16px;
+	overflow: hidden;
+	color: #e54948;
+}
+
+.list_lable_self {
+	float: left;
+	margin-right: 6px;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	width: 32px;
+	height: 18px;
+	background: url(../img/index/sale_self_ico.png);
+	color: #fff;
+	border-radius: 1px;
+	background-size: 32px 18px;
+}
+
+.itemSearchResult li p.price {
+	height: 22px;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: 700;
+	color: #f00;
+	line-height: 22px;
+}
+
+.itemSearchResult li .pro_img img {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+}

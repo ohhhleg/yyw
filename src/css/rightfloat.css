@@ -1,0 +1,243 @@
+@charset "UTF-8";
+.float_box {
+  position: fixed;
+  right: 28px;
+  bottom: 10px;
+  z-index: 100;
+  width: 52px;
+  height: auto;
+}
+.float_box .doctor_icon {
+  width: 52px;
+  cursor: pointer;
+}
+
+.f_back,
+.f_home,
+.f_top,
+.f_wei,
+.f_demand {
+  background: url(../img/index/common_sprite.png) no-repeat right 0;
+  overflow: hidden;
+  width: 52px;
+  height: 52px;
+  float: left;
+}
+
+.f_home {
+  background-position: 0 -622px;
+}
+
+.f_demand {
+  background-position: -52px -725px;
+  position: relative;
+  color: #e72519;
+}
+
+.f_wei i,
+.f_demand i {
+  position: absolute;
+  color: #fff;
+  right: 11px;
+  top: 8px;
+  height: 12px;
+  width: auto;
+  min-width: 12px;
+  border-radius: 16px;
+  background: red;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 2px;
+  text-indent: 0px;
+  text-align: center;
+}
+
+.f_wei {
+  background-position: 0 -674px;
+  text-indent: 0px;
+  line-height: 52px;
+  color: #e72519;
+  text-align: center;
+  width: 52px;
+  position: relative;
+}
+
+.f_back {
+  background-position: 0 -777px;
+}
+
+.f_top {
+  background-position: 0 -827px;
+}
+
+/*咨询*/
+.showConsult {
+  left: -362px;
+  top: 0px;
+  width: 360px;
+  height: 203px;
+  border: #e72419 1px solid;
+  background-color: #fff;
+  position: absolute;
+  overflow: hidden;
+}
+
+.consult {
+  width: 258px;
+  border: 1px solid #e6e6e6;
+  border-top: 0;
+  clear: both;
+  position: relative;
+  width: 360px;
+}
+
+.d_txt {
+  width: 360px;
+  height: 203px;
+  overflow: hidden;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  background-color: #fff;
+}
+.d_txt a {
+  padding: 9px 0 9px 25px;
+  width: 64px;
+  font-size: 12px;
+  line-height: 22px;
+  border-top: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-bottom: 0;
+  float: left;
+  margin-left: -1px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url("../img/index/just_index.png") no-repeat;
+}
+
+.d_txt a,
+.d_txt a:hover {
+  background: url(../img/index/talk.gif) no-repeat 6px center;
+}
+
+.d_txt_r,
+.d_txt_r:hover {
+  color: #e72419;
+}
+
+/*购物车*/
+.minicart_list {
+  position: absolute;
+  z-index: 1000;
+  border: #e72418 1px solid;
+  border-top: #e72418 2px solid;
+  font-size: 12px;
+  background: #fff;
+  top: -26px;
+}
+.minicart_list .list_detail {
+  background: #fff;
+  width: 268px;
+}
+.minicart_list .list_detail ul {
+  max-height: 329px;
+  min-height: 142px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 268px;
+  height: 207px;
+  top: 0;
+}
+.minicart_list .checkout_box {
+  float: left;
+  background: #f7f7f7;
+  text-align: right;
+  border-top: 1px solid #d1d1d1;
+  width: 249px;
+  height: 28px;
+  line-height: 28px;
+  padding: 10px 10px 8px 9px;
+}
+.minicart_list .checkout_box p {
+  float: left;
+  width: 170px;
+}
+.minicart_list .checkout_box .checkout_btn {
+  width: 70px;
+  height: 27px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+  background-color: #e72418;
+  border-radius: 2px;
+}
+
+.none_tips {
+  position: absolute;
+  padding-top: 27px;
+  background-color: #fff;
+  border: #e72419 1px solid;
+  height: 227px;
+}
+.none_tips i {
+  float: left;
+  width: 104px;
+  height: 76px;
+  background-position: 15px -370px;
+}
+.none_tips p {
+  float: left;
+  width: 150px;
+  margin-top: 22px;
+  line-height: 20px;
+}
+.none_tips a {
+  color: #0083ce;
+  font-weight: 700;
+}
+
+.minicart_list,
+.none_tips {
+  width: 268px;
+  left: -270px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.zszs {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  background: transparent;
+  z-index: 999;
+}
+.zszs span {
+  display: block;
+  color: transparent;
+  font-size: 14px;
+  width: 52px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.f_back:hover div,
+.f_wei:hover div,
+.f_home:hover div,
+.f_top:hover div,
+.f_demand:hover div {
+  background: #e72418;
+}
+
+.f_back:hover span,
+.f_wei:hover span,
+.f_home:hover span,
+.f_top:hover span,
+.f_demand:hover span {
+  color: #fff;
+}
+
+/*# sourceMappingURL=rightfloat.css.map */
